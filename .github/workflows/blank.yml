@@ -51,4 +51,5 @@ jobs:
         uses: cs2-analysis/setup-bindiff@v1
       - name: BinDiff version
         run: bindiff --version
-      
+      - name: Run BinDiff
+        run: bindiff file1.BinExport file2.BinExport
