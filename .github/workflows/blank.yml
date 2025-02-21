@@ -52,4 +52,4 @@ jobs:
       - name: BinDiff version
         run: bindiff --version
       - name: Run BinDiff
-        run: bindiff file1.BinExport file2.BinExport
+          run: bindiff --primary="file1.BinExport" --secondary="file2.BinExport"
