@@ -38,3 +38,5 @@ jobs:
         uses: pierotofy/set-swap-space@master
         with:
           swap-size-gb: 10
+      - name: Setup BinDiff
+        uses: cs2-analysis/setup-bindiff@v1
