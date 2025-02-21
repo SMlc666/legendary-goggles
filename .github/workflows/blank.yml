@@ -40,3 +40,6 @@ jobs:
           swap-size-gb: 10
       - name: Setup BinDiff
         uses: cs2-analysis/setup-bindiff@v1
+      - name: BinDiff version
+        run: bindiff --version
+      
